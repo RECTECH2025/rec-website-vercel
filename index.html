@@ -6,98 +6,25 @@
     <title>Ricaurte Energy Capital LLC - Under Construction</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Custom font for better aesthetics */
+        /* Custom font for better aesthetics and readability */
         body {
             font-family: "Inter", sans-serif;
         }
-        /* Custom color based on a typical 'energy capital' logo blue */
+        /* Custom color variables based on the specified logo blue */
+        :root {
+            --rec-blue-dark: #0A2351; /* Main dark blue for text/accents */
+            --rec-blue-light: #1A3A70; /* Slightly lighter blue for buttons/highlights */
+            --rec-blue-hover: #05122C; /* Even darker blue for hover states */
+        }
+        /* Applying custom colors using Tailwind's arbitrary values or direct CSS */
         .text-rec-blue {
-            color: #0A2351; /* Dark blue, representing the logo color */
+            color: var(--rec-blue-dark);
         }
         .bg-rec-blue-light {
-            background-color: #1A3A70; /* Slightly lighter blue for accents */
-        }
-        .border-rec-blue-light {
-            border-color: #1A3A70;
+            background-color: var(--rec-blue-light);
         }
         .hover\:bg-rec-blue-dark:hover {
-            background-color: #05122C; /* Even darker blue for hover states */
-        }
-    </style>
-</head>
-<body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen flex flex-col items-center justify-center p-4">
-
-    <div class="max-w-4xl w-full bg-white rounded-xl shadow-2xl overflow-hidden p-8 md:p-12 text-center">
-
-        <div class="mb-6 p-4 bg-yellow-100 border border-yellow-300 text-yellow-800 rounded-lg">
-            <p class="text-lg md:text-xl font-semibold">
-                Our site is currently under construction. We're working hard to bring you a better experience!
-            </p>
-        </div>
-
-        <header class="mb-10">
-            <h1 class="text-5xl md:text-6xl font-extrabold text-rec-blue tracking-tight leading-tight">
-                Ricaurte Energy Capital LLC
-            </h1>
-        </header>
-
-        <section class="mb-10">
-            <img src="https://placehold.co/800x450/e0e7ff/0A2351?text=Ricaurte+Energy+Capital+LLC"
-                 alt="Ricaurte Energy Capital LLC Under Construction Placeholder Image"
-                 class="w-full h-auto rounded-lg shadow-lg mx-auto max-w-2xl object-cover">
-        </section>
-
-        <section class="mb-12">
-            <p class="text-2xl md:text-3xl font-semibold text-gray-700 italic">
-                "Unlock Strategic Capital. Fuel Your Growth."
-            </p>
-        </section>
-
-        <section class="bg-blue-50 p-8 rounded-lg shadow-inner border border-blue-200">
-            <h2 class="text-3xl md:text-4xl font-bold text-rec-blue mb-6">Get in Touch</h2>
-            <div class="space-y-4 text-lg md:text-xl text-gray-800">
-                <p>
-                    <strong class="font-medium">Email:</strong>
-                    <a href="mailto:patricio@ricaurtenergy.com" class="text-blue-600 hover:underline ml-2">patricio@ricaurtenergy.com</a>
-                </p>
-                <p>
-                    <strong class="font-medium">Phone:</strong>
-                    <a href="tel:+19542643679" class="text-blue-600 hover:underline ml-2">+1 (954) 264-3679</a>
-                </p>
-                <p>
-                    <strong class="font-medium">WhatsApp:</strong>
-                    <a href="https://wa.me/541171108923" target="_blank" rel="noopener noreferrer" class="text-green-600 hover:underline ml-2">+54-1171108923</a>
-                </p>
-            </div>
-
-            <div class="mt-8">
-                <p class="text-xl md:text-2xl font-semibold text-gray-700 mb-4">
-                    Want to discuss your project?
-                </p>
-                <a href="https://meet.google.com/your-meet-link" target="_blank" <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ricaurte Energy Capital LLC - Under Construction</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        /* Custom font for better aesthetics */
-        body {
-            font-family: "Inter", sans-serif;
-        }
-        /* Custom color based on a typical 'energy capital' logo blue */
-        .text-rec-blue {
-            color: #0A2351; /* Dark blue, representing the logo color */
-        }
-        .bg-rec-blue-light {
-            background-color: #1A3A70; /* Slightly lighter blue for accents */
-        }
-        .border-rec-blue-light {
-            border-color: #1A3A70;
-        }
-        .hover\:bg-rec-blue-dark:hover {
-            background-color: #05122C; /* Even darker blue for hover states */
+            background-color: var(--rec-blue-hover);
         }
     </style>
 </head>
@@ -106,6 +33,10 @@
     <div class="max-w-4xl w-full bg-white rounded-xl shadow-2xl overflow-hidden p-8 md:p-12 text-center">
 
         <section class="mb-10">
+            <!-- Placeholder for your actual logo.
+                 Replace 'https://placehold.co/200x80/0A2351/ffffff?text=Your+Logo+Here'
+                 with the URL to your Ricaurte Energy Capital LLC logo.
+                 Ensure the image is optimized for web. -->
             <img src="https://placehold.co/200x80/0A2351/ffffff?text=Your+Logo+Here"
                  alt="Ricaurte Energy Capital LLC Logo"
                  class="mx-auto rounded-lg shadow-md max-w-full h-auto">
@@ -153,22 +84,6 @@
                 <a href="https://meet.google.com/your-meet-link" target="_blank" rel="noopener noreferrer"
                    class="inline-block bg-rec-blue-light hover:bg-rec-blue-dark text-white font-bold py-4 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
                     Schedule a Meeting
-                </a>
-            </div>
-        </section>
-
-    </div>
-
-    <footer class="mt-8 text-gray-600 text-sm">
-        <p>&copy; 2024 Ricaurte Energy Capital LLC. All rights reserved.</p>
-    </footer>
-
-</body>
-</html>
-
-="noopener noreferrer"
-                   class="inline-block bg-rec-blue-light hover:bg-rec-blue-dark text-white font-bold py-4 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
-                    Schedule a Google Meet
                 </a>
             </div>
         </section>
